@@ -5,7 +5,7 @@ import re
 # Date: 17/11/2022
 # Title: Calculator
 # Version: 1.4
-# This program is a simple calculator that can calculate the square root of any number aswell as any other simple operations
+# This program is a simple calculator that can calculate the square root of any integral number aswell as any other simple operations with integral or decimals
 # If you want to use decimals use (.) and not (,)
 print(f"Welcome to the python calculator\nType esc if you want to exit\n")
 
