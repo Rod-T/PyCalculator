@@ -15,6 +15,6 @@ while 1:
         print("Goodbye!...")
         break
     elif re.search("\Asqrt\(\d+\)|((\d+)(\+|-|\/|\*))+(\d+)|\Aesc", calc):
-        print(calc "=" eval(calc))
+        print(calc + "=" + str(eval(calc)))
     else:
         print(f"Invalid calculation, try again or write 'esc' to exit")
